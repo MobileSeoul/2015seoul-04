@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="ho.Jun.ho.MainActivity" >
+
+    <ho.Jun.ho.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        sl:scale_base_height="140"
+        sl:scale_base_width="700" >
+        
+        <TextView
+            android:id="@+id/add_list_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#55505c"
+            android:gravity="center_vertical"
+            sl:scale_height="120"
+            sl:scale_left="70"
+            sl:scale_textsize="70"
+            sl:scale_top="46"
+            sl:scale_width="550" />
+
+        <ImageView
+            android:id="@+id/add_list_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_left="10"
+            sl:scale_top="0"
+            sl:scale_height="55"
+            sl:scale_width="55" />
+
+        <ImageView
+            android:id="@+id/add_list_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_height="55"
+            sl:scale_left="70"
+            sl:scale_top="0"
+            sl:scale_width="55" />
+
+        <ImageView
+            android:id="@+id/add_list_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_height="55"
+            sl:scale_left="130"
+            sl:scale_top="0"
+            sl:scale_width="55" />
+
+        <ImageView
+            android:id="@+id/add_list_image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+            sl:scale_height="55"
+            sl:scale_left="190"
+            sl:scale_top="0"
+            sl:scale_width="55" />
+
+        <ImageView
+            android:id="@+id/add_list_image5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            sl:scale_height="55"
+            sl:scale_left="250"
+            sl:scale_top="0"
+            sl:scale_width="55" />
+
+        <ImageButton
+            android:id="@+id/add_list_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_delete"
+            sl:scale_height="42"
+            sl:scale_left="645"
+            sl:scale_top="60"
+            sl:scale_width="44" />
+    </ho.Jun.ho.ScalableLayout>
+
+</RelativeLayout>

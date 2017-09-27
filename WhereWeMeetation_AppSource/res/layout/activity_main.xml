@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:gravity="center"
+    tools:context="ho.Jun.ho.MainActivity" >
+    
+    <ho.Jun.ho.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_start"
+        sl:scale_base_height="1280"
+        sl:scale_base_width="800" >
+
+        <TextView 
+            android:id="@+id/start_text_where"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            sl:scale_width="400"
+            sl:scale_height="130"
+            sl:scale_left="65"
+            sl:scale_top="105"  
+            sl:scale_textsize="76"
+            android:text="@string/start_where"
+            />
+    
+            <TextView 
+            android:id="@+id/start_text_meet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            sl:scale_width="400"
+            sl:scale_height="130"
+            sl:scale_left="65"
+            sl:scale_top="180"  
+            sl:scale_textsize="72"
+            android:text="@string/start_meet" />
+        
+        
+            <TextView 
+            android:id="@+id/start_text_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#504a58"
+            sl:scale_width="690"
+            sl:scale_height="150"
+            sl:scale_left="60"
+            sl:scale_top="700"  
+            sl:scale_textsize="47"
+            android:text="@string/start_subtitle"
+            />
+            
+              <TextView 
+            android:id="@+id/start_text_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#504a58"
+            sl:scale_width="690"
+            sl:scale_height="200"
+            sl:scale_left="60"
+            sl:scale_top="800"  
+            sl:scale_textsize="39"
+            android:text="@string/start_detail"
+            />          
+            
+        
+    <!-- 
+        <Button
+            android:id="@+id/start_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/start_info_selector"
+            sl:scale_height="65"
+            sl:scale_width="66"
+            sl:scale_left="590"
+            sl:scale_top="185" />
+    -->
+        
+        
+        <Button
+            android:id="@+id/start_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/start_config_selector"
+            android:visibility="gone"
+            sl:scale_height="63"
+            sl:scale_width="63"
+            sl:scale_left="682"
+            sl:scale_top="185" />
+        
+        
+            
+        
+        
+        
+        <Button
+            android:id="@+id/start_start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/start_button_selector"
+            sl:scale_height="127"
+            sl:scale_left="130"
+            sl:scale_top="1000"
+            sl:scale_width="547" />
+        
+        
+    </ho.Jun.ho.ScalableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="검색 설정" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="useNetwork"
+            android:summaryOff="폰에서 직접 계산합니다.\n속도를 보장할 수 없습니다."
+            android:summaryOn="서버를 통해 계산합니다."
+            android:title="서버에서 계산하기" 
+            />
+
+        <setting.NumberPickerPreference
+            android:defaultValue="40"
+            android:key="maxSize"
+            android:title="검색 역 간 최대 역 수" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="어플 상세 정보" >
+        <Preference
+            android:summary="v 1.0"
+            android:title="버전 정보" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
